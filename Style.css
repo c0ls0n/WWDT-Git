@@ -1,0 +1,21 @@
+body {
+  background-color:#E2EFF4;
+  padding: 0px;
+}
+h1 {
+  /*background-color:#227B9B;*/
+  font-family: helvetica;
+  font-size: 48px;
+  letter-spacing: 0.3em;
+  padding: 0px;
+  text-align: center;
+}
+p {
+  font-family: trebuchet;
+  font-size: 18px;
+  text-align: center;
+}
+h2 {
+  /*background-color: #227B9B;*/
+  image-orientation: center;
+}
