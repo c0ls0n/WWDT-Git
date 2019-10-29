@@ -1,21 +1,105 @@
-body {
-  background-color:#E2EFF4;
-  padding: 0px;
-}
-h1 {
-  /*background-color:#227B9B;*/
-  font-family: helvetica;
-  font-size: 48px;
-  letter-spacing: 0.3em;
-  padding: 0px;
-  text-align: center;
-}
-p {
-  font-family: trebuchet;
-  font-size: 18px;
-  text-align: center;
-}
-h2 {
-  /*background-color: #227B9B;*/
-  image-orientation: center;
+/* HEADER */
+  .header {
+    position: relative;
+    width: 50%;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    max-height: 300px;
+    width: 100%;
+    max-width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  .header:hover .overlay {
+    opacity: 1;
+  } 
+  .text {
+    color: black;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+/*TOP NAV BAR */
+  .topnav {
+  overflow: hidden;
+  background-color:#FF8C00;
+  }
+  /* Style */
+    .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+  /* Hover Color */
+    .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+/* SECTION STYLE */
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+  }
+  h2 {
+    margin: 0px;
+    padding: 0px;
+  }
+  p {
+    font-family: trebuchet;
+    font-size: 18px;
+  }
+  /* 
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  */
+  
+/*BODY LAYOUT */
+  .column {
+  float: left;
+  padding: 6px;
+  }
+  /* Left column */
+    .column.side {
+    width: 15%;
+  }
+  /* Middle column */
+    .column.middle {
+    width: 75%;
+  }
+  /* Clear floats*/
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+    width: 100%;
+  }
 }
