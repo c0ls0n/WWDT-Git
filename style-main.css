@@ -1,0 +1,391 @@
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+body {
+	margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+    display: inline-block;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    color: #ddca7e;
+    background: #f7f1ec;
+	padding: .5em .8em;
+    border-radius: .2em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #f7f1ec;
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	margin: 0;
+	padding: 1em 0;
+}
+
+p {
+	margin: 0;
+	padding: 1em 0;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+/* Page Header */
+.masthead {
+	color:white;
+	background-image: url(images/BGDark.jpg);
+
+}
+
+/* Promo Section */
+.logo,
+
+.site-title {
+	text-align: center;
+}
+
+.logo {
+	font-size: 4em;
+}
+
+.site-title {
+	margin-top: -1em;
+
+/* Gives some whitespace between header and main
+	margin-bottom: 3em;
+*/
+}
+
+/* Splash section */
+.splash {
+	background: #f7f1ec;
+	padding-bottom: 2em;
+}
+
+.splash-content {
+	padding: 1.5em;
+}
+
+@media screen and (min-width: 600px) {
+	.splash-text {
+		columns: 2;
+		column-gap: 2em;
+	}
+
+	.splash-text p {
+		padding-top: 0;
+	}
+}
+
+/* Panels Section */
+.panels {
+	padding: 2em 1em 1em;
+	background: #3E454C;
+}
+
+.panels ul {
+	margin: 0;
+	padding: 0;
+}
+
+.panels li {
+	margin-bottom: 1em;
+	background: white;
+	list-style-type: none;
+}
+
+.panel {
+	padding: 1.5em;
+}
+/* reviews */
+
+.reviews {
+	padding: 2em 1em 1em;
+	background: #3E454C;
+}
+
+.reviews ul {
+	margin: 0;
+	padding: 0;
+}
+
+.reviews li {
+	margin-bottom: 1em;
+	background: white;
+	list-style-type: none;
+}
+
+.review {
+	padding: 1.5em;
+}
+
+/* Specifications Section */
+.specifications {
+	padding: 2em 1em 1em;
+	background: #f7f1ec;
+}
+.specifications ul {
+	margin: 0;
+	padding: 0;
+}
+
+.specifications li {
+	margin-bottom: 1em;
+	background: white;
+	list-style-type: none;
+}
+
+.specOne {
+	padding: 1.5em;
+}
+
+/* Video Section */
+.video {
+	padding: 2em;
+	background: #e47723;
+	color: white;
+	overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+}
+
+.video:last-of-type {
+	background: #e47723;
+}
+
+/* Footer Section */
+.bottom {
+	padding: 2em;
+	background: hsl(0, 0%, 10%);
+	color: white;
+	text-align: center;
+}
+
+.bottom a {
+	color: white;
+}
+
+.bottom a:hover,
+.bottom a:focus {
+	border-bottom: 1px solid white;
+}
+
+
+/*--------------------------------------------------------------
+Flex layout
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 700px) {
+	@supports (display: flex) {
+
+		.panels ul {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.panels li {
+			width: 31%;
+		}
+
+		.specifications ul {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.specifications li {
+			width: 50%;
+		}
+
+		.reviews ul {
+			display: flex;
+			justify-content: space-around;
+		}
+		.reviews li {
+			width: 31%;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+Basic responsive layout for all browsers:
+--------------------------------------------------------------*/
+
+.site {
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+CSS Grid layout for modern browsers:
+--------------------------------------------------------------*/
+
+@supports (grid-area: auto) {
+
+	@media screen and (min-width: 600px) {
+		.site {
+			max-width: none;
+		}
+		.main-area > * ,
+		.bottom {
+			display: grid;
+			grid-template-columns: 1fr repeat(2, minmax(auto, 25em))1fr;
+		}
+		.splash-content,
+		.specs {
+			grid-column: 2/4;
+		}
+		.panels ul {
+			grid-column: 2/4;
+		}
+		.specifications ul {
+			grid-column: 2/4;
+		}
+		.reviews ul {
+			grid-column: 1/5;
+		}
+		.video,
+		.bottom aside {
+			grid-column: span 2;
+		}
+	}
+
+	}
