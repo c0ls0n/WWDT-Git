@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen XML Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen XML Editor/frameworks/dita/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen XML Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)" xtrc="bookmap:1;3:10" xtrf="file:/Users/CJmbP/Desktop/Dita/ES5Manual.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><booktitle xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle ">Expert Sleepers ES-5 User Manual</mainbooktitle>  </booktitle></oxy:front-page-title></oxy:front-page><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_1" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="es5about" oid="es5about">
+    <title class="- topic/title ">About</title>
+    <shortdesc class="- topic/shortdesc ">The ES-5 adds an additional eight 3.5mm outputs to the ES-3 mk3/mk4, ES-8, or ES-9
+        base units and functions in the same way. For use instructions, consult your base-unit
+        manual.</shortdesc>
+    <refbody class="- topic/body        reference/refbody ">
+        <table class="- topic/table " colsep="1" frame="all" id="unique_1_Connect_42_table_cdj_knq_sjb" nd:nd-id="table_cdj_knq_sjb" rowsep="1">
+            <tgroup class="- topic/tgroup " cols="2">
+                <colspec class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;11:51" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;12:51" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita"/>
+                <tbody class="- topic/tbody ">
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;15:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Panel Width</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;16:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">4HP</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;19:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Module Depth</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;20:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">49mm</entry>
+                    </row>
+                    
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;27:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">D/A Conversion</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;28:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">24bit</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;31:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Signal to Noise Ratio</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;32:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">113dB typical</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:9;35:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Output Connections</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:10;36:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">8x 3.5mm (DC coupled)</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:11;39:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Maximum Output Voltage</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:12;40:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">±10V DC</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:13;43:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Current Draw</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:14;44:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">148mA on the +12V rail, 18mA on the -12V rail</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:15;47:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Power Connector</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:16;48:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Doepfer Standard</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:17;51:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Indicators</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:18;52:32" xtrf="file:/Users/CJmbP/Desktop/Dita/es5about.dita">Illuminated 3.5mm jacks indicate output voltage (+ve/–ve)</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="untitled12" oid="untitled12">
+    <title class="- topic/title ">Installation</title>
+    <shortdesc class="- topic/shortdesc ">Installation requires: 4hp available Eurorack spaces, and an ES-3 mk3/mk4, ES-8, or
+        ES-9.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Installation instructions differ depending on your base unit. </p>
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_2_Connect_42_ul_ccp_nkz_sjb" nd:nd-id="ul_ccp_nkz_sjb">
+                <li class="- topic/li ">House the ES-5 in a Eurorack case of your choosing. The power connector is <xref class="- topic/xref " format="html" href="http://www.doepfer.de/a100_man/a100t_e.htm" scope="external"><?ditaot usertext?>Doepfer standard</xref>. </li>
+                <li class="- topic/li "> Connect the power cable so "-12V" (printed on the PCB) corresponds to the red
+                    stripe on the cable (see Fig.1).<fig class="- topic/fig " id="unique_2_Connect_42_fig_otn_nqp_5jb" nd:nd-id="fig_otn_nqp_5jb"><title class="- topic/title ">Fig. 1: ES-5 PCB: (L to R) to ES-3, Jumper, Ch.1-6 Expansion selectors,
+                            Connection to Expander, Power</title><image align="center" class="- topic/image " href="file:/Users/CJmbP/Desktop/Dita/ES5board.jpg" id="unique_2_Connect_42_image_ptn_nqp_5jb" nd:nd-id="image_ptn_nqp_5jb" placement="break" width="532" height="308" scale="30">
+                            <alt class="- topic/alt ">Fig. 1: (L to R) to ES-3, Jumper, Ch.1-6 Expansion selectors,
+                                Connection to Expander, Power</alt>
+                        </image></fig></li>
+            </ul>
+        </p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">All Units</b>
+            <ol class="- topic/ol " id="unique_2_Connect_42_ol_ebr_krz_sjb" nd:nd-id="ol_ebr_krz_sjb">
+                <li class="- topic/li "> Disconnect power to your Eurorack case.</li>
+                <li class="- topic/li "> Attach the power connector so "-12V" (printed on the PCB) corresponds to the
+                    red stripe on the power connector (see Fig.1). <note class="- topic/note ">The red stripe must be
+                        alinged with "-12V" marked on the PCB. The power connector supplied with the
+                        ES-5 is keyed to in ensure a correct fit.</note></li>
+                <li class="- topic/li "> Connect the other end of the power cable to an available power port in your
+                    Eurorack case so "-12V" on your power supply PCB corresponds to the red stripe
+                    on the cable.</li>
+            </ol></p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">ES-3 mk3, ES-3 mk4, ES-8, ES-9</b><ol class="- topic/ol " id="unique_2_Connect_42_ol_bpd_4vj_xjb" nd:nd-id="ol_bpd_4vj_xjb">
+                <li class="- topic/li "> Disconnect power to your Eurorack case.</li>
+                <li class="- topic/li "> Connect power as instructed under "All Units."</li>
+                <li class="- topic/li "> Connect the ES-5, with the supplied 10-way cable, to the header on your units
+                    PCB (see Fig. 1 and Fig. 2).<fig class="- topic/fig " id="unique_2_Connect_42_fig_fcj_xrp_5jb" nd:nd-id="fig_fcj_xrp_5jb"><title class="- topic/title ">Fig. 2: Expansion header on ES-3mk3/mk4, ES-8, and ES-9</title><image align="center" class="- topic/image " href="file:/Users/CJmbP/Desktop/Dita/ES5Port.jpg" id="unique_2_Connect_42_image_gcj_xrp_5jb" nd:nd-id="image_gcj_xrp_5jb" placement="break" width="240" height="186" scale="30">
+                            <alt class="- topic/alt ">Fig. 2: Expansion header on ES-3mk3/mk4, ES-8, and ES-9</alt>
+                        </image></fig></li>
+                <li class="- topic/li "> Ensure all connectors are seated fully and correctly.</li>
+                <li class="- topic/li "> Secure the ES-5 in your Eurorack case with the four provided screws.</li>
+                <li class="- topic/li "> Reconnect power to your Eurorack case.</li>
+                <li class="- topic/li "> Have fun!</li>
+            </ol></p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">ES3 mk2</b><ol class="- topic/ol " id="unique_2_Connect_42_ol_om1_5vj_xjb" nd:nd-id="ol_om1_5vj_xjb">
+                <li class="- topic/li "> Disconnect power to your Eurorack case.</li>
+                <li class="- topic/li "> Connect power as instructed under "All Units." </li>
+                <li class="- topic/li "> Connect the ES-5, with the supplied 10-way cable, to the header on your ES-3
+                    mk2 PCB (see Fig. 3).<note class="- topic/note ">You may find it helpful to loosen the screws that
+                        attach the PCB to the module's panel while fitting the
+                        cable.</note><note class="- topic/note ">The six conductors on the side of the cable with the red
+                        stripe must engage with the 6-way header on the ES-3; the four unused
+                        conductors hang over the small IC at the edge of the board (see Fig.
+                        3).</note><fig class="- topic/fig " id="unique_2_Connect_42_fig_j2b_gzj_xjb" nd:nd-id="fig_j2b_gzj_xjb"><title class="- topic/title ">Fig. 3: Connecting to an ES-3 mk2. Notice the last four unused
+                            conductors on the cable are nearest the egde of the PCB</title><image align="center" class="- topic/image " href="file:/Users/CJmbP/Desktop/Dita/ES5Stack.jpg" id="unique_2_Connect_42_image_k2b_gzj_xjb" nd:nd-id="image_k2b_gzj_xjb" placement="break" width="256" height="192" scale="80">
+                            <alt class="- topic/alt ">Connecting to an ES-3 mk2. Notice the last four unused conductors
+                                on the cable are nearest the egde of the PCB</alt>
+                        </image></fig></li>
+                <li class="- topic/li "> Ensure all connectors are seated fully and correctly.</li>
+                <li class="- topic/li "> Secure the ES-5 in your Eurorack case with the four provided screws.</li>
+                <li class="- topic/li "> Reconnect power to your Eurorack case.</li>
+                 <li class="- topic/li "> Have fun!</li>
+            </ol></p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">ES-3 mk1</b><note class="- topic/note ">The ES-3 mk1 lacks the expansion headers of mk2 and later. However,
+                it is fairly simple to solder the equivalent connections. The suggested solution is
+                to use the 10-way ribbon cable provided with the ES-5 to solder one end to the ES-3
+                PCB, leaving the other end with the usual connector for the ES-5 as shown in Fig.
+                4.</note><ol class="- topic/ol " id="unique_2_Connect_42_ol_csg_5vj_xjb" nd:nd-id="ol_csg_5vj_xjb">
+                <li class="- topic/li "> Disconnect power to your Eurorack case.</li>
+                <li class="- topic/li "> Remove your ES-3 mk1 from your Eurorack case.</li>
+                <li class="- topic/li ">Modify the suppled 10-way ribbon cable to match Fig. 4 as detailed in further
+                        steps.<fig class="- topic/fig " id="unique_2_Connect_42_fig_yf5_sjk_xjb" nd:nd-id="fig_yf5_sjk_xjb"><title class="- topic/title ">Fig. 4: Modded 10-way on ES-3 mk1. </title><image align="center" class="- topic/image " href="file:/Users/CJmbP/Desktop/Dita/Images/es3mk1_mod.jpg" id="unique_2_Connect_42_image_zf5_sjk_xjb" nd:nd-id="image_zf5_sjk_xjb" placement="break" width="512" height="205" scale="80"/></fig><note class="- topic/note "> Only six of the cable's ten conductors need to be soldered to the
+                        ES-3. The other four can be discarded. !!Note orientation of red
+                        stripe!!</note><fig class="- topic/fig " id="unique_2_Connect_42_fig_rgr_kkk_xjb" nd:nd-id="fig_rgr_kkk_xjb"><title class="- topic/title ">Fig. 5: Unmodified ES-3 mk1 PCB.</title><image align="center" class="- topic/image " href="file:/Users/CJmbP/Desktop/Dita/Images/es3mk1_unmod_k.jpg" id="unique_2_Connect_42_image_ugr_kkk_xjb" nd:nd-id="image_ugr_kkk_xjb" placement="break" width="320" height="243" scale="50"/><note class="- topic/note ">The highlighted areas are vias (connections from one side of the PCB
+                            to the other) and are the easiest points to make the connections.</note></fig></li>
+                <li class="- topic/li ">Solder the connections as shown in Fig. 6. In this scheme, the conductors match
+                    up to the pads in Fig. 5 as follows: <ul class="- topic/ul " id="unique_2_Connect_42_ul_ojf_j2k_xjb" nd:nd-id="ul_ojf_j2k_xjb">
+                        <li class="- topic/li ">1-A</li>
+                        <li class="- topic/li ">2-D</li>
+                        <li class="- topic/li ">3-B</li>
+                        <li class="- topic/li ">4-E</li>
+                        <li class="- topic/li ">5-C</li>
+                        <li class="- topic/li ">6-F<note class="- topic/note ">The numbers 1-6 correspond to the conductors of the ribbon
+                                cable, starting from the red edge as number "1" and the letters A-F
+                                correspond to the vias as shown in Fig. 5.</note></li>
+                    </ul><fig class="- topic/fig " id="unique_2_Connect_42_fig_k5d_vkk_xjb" nd:nd-id="fig_k5d_vkk_xjb"><title class="- topic/title ">Fig. 6: Numbers correspond to the conductors of the ribbon cable,
+                            starting from the red edge as number "1"</title><image align="center" class="- topic/image " href="file:/Users/CJmbP/Desktop/Dita/Images/es3mk1_mod_closeup_k.jpg" id="unique_2_Connect_42_image_l5d_vkk_xjb" nd:nd-id="image_l5d_vkk_xjb" placement="break" width="320" height="154" scale="50"/></fig></li>
+                <li class="- topic/li ">Install your ES-3 mk1 to your Eurorack case.</li>
+                <li class="- topic/li "> Attach the ES-5 power connector so "-12V" (printed on the PCB) corresponds to
+                    the red stripe on the power connector (see Fig.1). <note class="- topic/note ">The red stripe must be
+                        alinged with "-12V" marked on the PCB. The power connector supplied with the
+                        ES-5 is keyed to in ensure a correct fit.</note></li>
+                <li class="- topic/li "> Connect the other end of the power cable to an available power port in your
+                    Eurorack case so "-12V" on your power supply PCB corresponds to the red stripe
+                    on the cable.</li>
+                <li class="- topic/li ">Connect the ES-5, with the modded 10-way cable, to the "Connector to ES-3"
+                    header on your units PCB (see Fig. 1).</li>
+                <li class="- topic/li ">Ensure all connectors are seated fully and correctly.</li>
+                <li class="- topic/li "> Secure the ES-5 in your Eurorack case with the four provided screws.</li>
+                <li class="- topic/li "> Reconnect power to your Eurorack case.</li>
+                <li class="- topic/li "> Have fun!</li>
+            </ol></p>
+    </conbody>
+</concept></bookmap>

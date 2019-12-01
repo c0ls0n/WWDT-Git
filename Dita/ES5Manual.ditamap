@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Expert Sleepers ES-5 User Manual</mainbooktitle>
+    </booktitle>
+    <chapter href="es5about.dita"/>
+    <chapter href="untitled12.dita"/>
+</bookmap>

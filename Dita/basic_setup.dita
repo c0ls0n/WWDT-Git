@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="basic_setup">
+    <title>Basic Setup</title>
+    <shortdesc>Setting up the ES-3 for basic control over a singe parameter on a Eurorack
+        module.</shortdesc>
+    <conbody>
+        <p>A basic setup is all that is needed to control a single parameter with the ES-3. </p>
+        <ol id="ol_jvb_w3k_sjb">
+            <li>Install the module in a suitable Eurorack case.</li>
+            <li>Connect a TOSlink optical cable from the ADAT/Optical output of your audio interface
+                to the coresponding input on the ES-3.</li>
+            <li>Turn on the ES-3 by powering your Eurorack case.</li>
+            <li>Connect a 1/8' (3.5mm) Eurorack cable from the respective outputs on the ES-3 to any
+                respective input(s) on the Eurorack module(s).<note>!!TO PREVENT DAMAGE TO
+                    EQUIPTMENT AND YOUR EARS, BEFORE CONNECTING THE ES-3, TURN THE VOLUME OF YOUR
+                    EURORACK MODULE OUTPUT ALL THE WAY DOWN!!</note><note>The ES-3 can be used to
+                    modulate, trigger, or gate any paramater on any Eurorack module. For information
+                    on modulation, gates, and triggers, see the Silent Way User Manual or the manual
+                    to your Eurorack module.</note></li>
+        </ol>
+    </conbody>
+</concept>

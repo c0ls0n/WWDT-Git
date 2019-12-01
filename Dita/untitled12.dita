@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="untitled12">
+    <title>Installation</title>
+    <shortdesc>Installation requires: 4hp available Eurorack spaces, and an ES-3 mk3/mk4, ES-8, or
+        ES-9.</shortdesc>
+    <conbody>
+        <p>Installation instructions differ depending on your base unit. </p>
+        <p>
+            <ul id="ul_ccp_nkz_sjb">
+                <li>House the ES-5 in a Eurorack case of your choosing. The power connector is <xref
+                        href="http://www.doepfer.de/a100_man/a100t_e.htm" format="html"
+                        scope="external">Doepfer standard</xref>. </li>
+                <li> Connect the power cable so "-12V" (printed on the PCB) corresponds to the red
+                    stripe on the cable (see Fig.1).<fig id="fig_otn_nqp_5jb">
+                        <title>Fig. 1: ES-5 PCB: (L to R) to ES-3, Jumper, Ch.1-6 Expansion selectors,
+                            Connection to Expander, Power</title>
+                        <image placement="break" href="ES5board.jpg" scale="30" align="center"
+                            id="image_ptn_nqp_5jb">
+                            <alt>Fig. 1: (L to R) to ES-3, Jumper, Ch.1-6 Expansion selectors,
+                                Connection to Expander, Power</alt>
+                        </image>
+                    </fig></li>
+            </ul>
+        </p>
+        <p><b>All Units</b>
+            <ol id="ol_ebr_krz_sjb">
+                <li> Disconnect power to your Eurorack case.</li>
+                <li> Attach the power connector so "-12V" (printed on the PCB) corresponds to the
+                    red stripe on the power connector (see Fig.1). <note>The red stripe must be
+                        alinged with "-12V" marked on the PCB. The power connector supplied with the
+                        ES-5 is keyed to in ensure a correct fit.</note></li>
+                <li> Connect the other end of the power cable to an available power port in your
+                    Eurorack case so "-12V" on your power supply PCB corresponds to the red stripe
+                    on the cable.</li>
+            </ol></p>
+        <p><b>ES-3 mk3, ES-3 mk4, ES-8, ES-9</b><ol id="ol_bpd_4vj_xjb">
+                <li> Disconnect power to your Eurorack case.</li>
+                <li> Connect power as instructed under "All Units."</li>
+                <li> Connect the ES-5, with the supplied 10-way cable, to the header on your units
+                    PCB (see Fig. 1 and Fig. 2).<fig id="fig_fcj_xrp_5jb">
+                        <title>Fig. 2: Expansion header on ES-3mk3/mk4, ES-8, and ES-9</title><image placement="break" href="ES5Port.jpg" scale="30" align="center"
+                            id="image_gcj_xrp_5jb">
+                            <alt>Fig. 2: Expansion header on ES-3mk3/mk4, ES-8, and ES-9</alt>
+                        </image>
+                    </fig></li>
+                <li> Ensure all connectors are seated fully and correctly.</li>
+                <li> Secure the ES-5 in your Eurorack case with the four provided screws.</li>
+                <li> Reconnect power to your Eurorack case.</li>
+                <li> Have fun!</li>
+            </ol></p>
+        <p><b>ES3 mk2</b><ol id="ol_om1_5vj_xjb">
+                <li> Disconnect power to your Eurorack case.</li>
+                <li> Connect power as instructed under "All Units." </li>
+                <li> Connect the ES-5, with the supplied 10-way cable, to the header on your ES-3
+                    mk2 PCB (see Fig. 3).<note>You may find it helpful to loosen the screws that
+                        attach the PCB to the module's panel while fitting the
+                        cable.</note><note>The six conductors on the side of the cable with the red
+                        stripe must engage with the 6-way header on the ES-3; the four unused
+                        conductors hang over the small IC at the edge of the board (see Fig.
+                        3).</note><fig id="fig_j2b_gzj_xjb">
+                            <title>Fig. 3: Connecting to an ES-3 mk2. Notice the last four unused
+                            conductors on the cable are nearest the egde of the PCB</title><image placement="break" href="ES5Stack.jpg" scale="80" align="center"
+                            id="image_k2b_gzj_xjb">
+                            <alt>Connecting to an ES-3 mk2. Notice the last four unused conductors
+                                on the cable are nearest the egde of the PCB</alt>
+                        </image>
+                    </fig></li>
+                <li> Ensure all connectors are seated fully and correctly.</li>
+                <li> Secure the ES-5 in your Eurorack case with the four provided screws.</li>
+                <li> Reconnect power to your Eurorack case.</li>
+                 <li> Have fun!</li>
+            </ol></p>
+        <p><b>ES-3 mk1</b><note>The ES-3 mk1 lacks the expansion headers of mk2 and later. However,
+                it is fairly simple to solder the equivalent connections. The suggested solution is
+                to use the 10-way ribbon cable provided with the ES-5 to solder one end to the ES-3
+                PCB, leaving the other end with the usual connector for the ES-5 as shown in Fig.
+                4.</note><ol id="ol_csg_5vj_xjb">
+                <li> Disconnect power to your Eurorack case.</li>
+                <li> Remove your ES-3 mk1 from your Eurorack case.</li>
+                <li>Modify the suppled 10-way ribbon cable to match Fig. 4 as detailed in further
+                        steps.<fig id="fig_yf5_sjk_xjb">
+                        <title>Fig. 4: Modded 10-way on ES-3 mk1. </title>
+                        <image placement="break" href="Images/es3mk1_mod.jpg" scale="80"
+                            align="center" id="image_zf5_sjk_xjb"/>
+                    </fig><note> Only six of the cable's ten conductors need to be soldered to the
+                        ES-3. The other four can be discarded. !!Note orientation of red
+                        stripe!!</note><fig id="fig_rgr_kkk_xjb">
+                        <title>Fig. 5: Unmodified ES-3 mk1 PCB.</title>
+                        <image placement="break" href="Images/es3mk1_unmod_k.jpg" scale="50"
+                            align="center" id="image_ugr_kkk_xjb"/>
+                        <note>The highlighted areas are vias (connections from one side of the PCB
+                            to the other) and are the easiest points to make the connections.</note>
+                    </fig></li>
+                <li>Solder the connections as shown in Fig. 6. In this scheme, the conductors match
+                    up to the pads in Fig. 5 as follows: <ul id="ul_ojf_j2k_xjb">
+                        <li>1-A</li>
+                        <li>2-D</li>
+                        <li>3-B</li>
+                        <li>4-E</li>
+                        <li>5-C</li>
+                        <li>6-F<note>The numbers 1-6 correspond to the conductors of the ribbon
+                                cable, starting from the red edge as number "1" and the letters A-F
+                                correspond to the vias as shown in Fig. 5.</note></li>
+                    </ul><fig id="fig_k5d_vkk_xjb">
+                        <title>Fig. 6: Numbers correspond to the conductors of the ribbon cable,
+                            starting from the red edge as number &quot;1&quot;</title>
+                        <image placement="break" href="Images/es3mk1_mod_closeup_k.jpg" scale="50"
+                            align="center" id="image_l5d_vkk_xjb"/>
+                    </fig></li>
+                <li>Install your ES-3 mk1 to your Eurorack case.</li>
+                <li> Attach the ES-5 power connector so "-12V" (printed on the PCB) corresponds to
+                    the red stripe on the power connector (see Fig.1). <note>The red stripe must be
+                        alinged with "-12V" marked on the PCB. The power connector supplied with the
+                        ES-5 is keyed to in ensure a correct fit.</note></li>
+                <li> Connect the other end of the power cable to an available power port in your
+                    Eurorack case so "-12V" on your power supply PCB corresponds to the red stripe
+                    on the cable.</li>
+                <li>Connect the ES-5, with the modded 10-way cable, to the "Connector to ES-3"
+                    header on your units PCB (see Fig. 1).</li>
+                <li>Ensure all connectors are seated fully and correctly.</li>
+                <li> Secure the ES-5 in your Eurorack case with the four provided screws.</li>
+                <li> Reconnect power to your Eurorack case.</li>
+                <li> Have fun!</li>
+            </ol></p>
+    </conbody>
+</concept>

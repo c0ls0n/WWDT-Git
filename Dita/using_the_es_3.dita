@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="using_the_es_3">
+    <title>Using the ES-3 with Silent Way</title>
+    <shortdesc>Use the ES-3 and Silent Way to control Eurorack module paramaters.</shortdesc>
+    <conbody>
+        <p>A <xref href="basic_setup.dita"/> is all that is needed to control a single parameter
+            with the ES-3. </p>
+        <p>
+            <note>!!TO PREVENT DAMAGE TO EQUIPTMENT AND YOUR EARS, TURN THE VOLUME OF YOUR EURORACK
+                MODULE ALL THE WAY DOWN!!</note>
+        </p>
+        <ol id="ol_jvb_w3k_sjb">
+            <li>Connect a TOSlink optical cable from the ADAT/Optical output of your audio interface
+                to the coresponding input on the ES-3.</li>
+            <li>Connect a 3.5mm Eurorack cable from output 1 on the ES-3 to a paramater input of any
+                Eurorack module.</li>
+            <li>Open Expert Sleepers Silent Way and select the ADAT/Optical output of your audio
+                interface as the output.<note>For help with Silent Way, see the Silent Way User
+                    Manual.</note></li>
+            <li>Load an ADSR from the Silent Way Template Library.</li>
+            <li>Set the output of the ADSR to channel one the ADAT/Optical output.</li>
+            <li>Trigger your oscillator module and slowly increase the volume of the module.</li>
+        </ol>
+        <p>You should now hear the effect of Silent Way modulating the amplitude of your oscilator
+            module. Notice that any changes to the ADSR in Silent Way instantaneiosly changes the
+            amplitude envelope of your oscillator. This same principle applies to all input
+            parameters on all Eurorack modules.</p>
+    </conbody>
+    <related-links>
+        <link href="basic_setup.dita" format="xml"/>
+    </related-links>
+</concept>

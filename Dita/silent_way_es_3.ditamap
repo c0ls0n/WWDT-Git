@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Expert Sleepers ES-3 User Manual <image placement="break" href="ESlogo.png" scale="100" align="center"
+            id="image_pz2_4tp_5jb"
+            /></mainbooktitle>
+    </booktitle>
+    <chapter href="basic_setup.dita"/>
+    <chapter href="using_the_es_3.dita">
+    </chapter>
+    <chapter href="specifications.dita"/>
+</bookmap>

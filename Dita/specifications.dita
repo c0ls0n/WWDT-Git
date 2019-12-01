@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="specifications">
+    <title>Specifications</title>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_cdj_knq_sjb">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <tbody>
+                    <row>
+                        <entry>Panel Width</entry>
+                        <entry>8HP</entry>
+                    </row>
+                    <row>
+                        <entry>Module Depth</entry>
+                        <entry>50mm</entry>
+                    </row>
+                    <row>
+                        <entry>Input Connection</entry>
+                        <entry>Optical, ADAT Lightpipe standard</entry>
+                    </row>
+                    <row>
+                        <entry>D/A Conversion</entry>
+                        <entry>24bit</entry>
+                    </row>
+                    <row>
+                        <entry>Signal to Noise Ratio</entry>
+                        <entry>113dB typical</entry>
+                    </row>
+                    <row>
+                        <entry>Output Connections</entry>
+                        <entry>8x 3.5mm (DC coupled)</entry>
+                    </row>
+                    <row>
+                        <entry>Maximum Output Voltage</entry>
+                        <entry>±10V DC</entry>
+                    </row>
+                    <row>
+                        <entry>Current Draw</entry>
+                        <entry>148mA on the +12V rail, 18mA on the -12V rail</entry>
+                    </row>
+                    <row>
+                        <entry>Power Connector</entry>
+                        <entry>Doepfer Standard</entry>
+                    </row>
+                    <row>
+                        <entry>Indicators</entry>
+                        <entry>LED for ADAT clock sync; illuminated 3.5mm jacks indicate output
+                            voltage (+ve/–ve)</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>
