@@ -1,0 +1,72 @@
+<!-- Included:
+- XML for client (Only an example. This has not been implimented into the site yet.
+- Documentation
+-->
+
+<!--XML for client
+-->
+
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
+<!DOCTYPE Specifications
+[
+   <!ELEMENT Specs (ModName, HPWidth, ModDepth, InConnect, OutConnect, DAConvert, MaxOutVolt, Controls, GainRange, Impedance, PhantomPwr, Indicators, CurrentDraw, Expander)>
+   <!ELEMENT ModName (#PCDATA)>
+   <!ELEMENT HPWidth (#PCDATA)>
+   <!ELEMENT ModDepth (#PCDATA)>
+   <!ELEMENT InConnect (#PCDATA)>
+   <!ELEMENT OutConnect (#PCDATA)>
+   <!ELEMENT DAConvert (#PCDATA)>
+   <!ELEMENT MaxOutVolt (#PCDATA)>
+   <!ElEMENT Controls (#PCDATA)>
+   <!ElEMENT GainRange (#PCDATA)>
+   <!ElEMENT Impedance (#PCDATA)>
+   <!ElEMENT PhantomPwr (#PCDATA)>
+   <!ELEMENT Indicators (#PCDATA)>
+   <!ELEMENT CurrentDraw (#PCDATA)>
+   <!ELEMENT Expander (#PCDATA)>
+]>
+
+<!--NOTE
+    Each set of specifications would appear on an individual page. 
+    Some specs do not apply, but the list of tags is exhasitve for the entire set of units available.
+    Below is an example of how this tag set would be applied to specic modules
+-->
+
+<Specs>
+   <ModName>ES-3 Lightpipe/CV Interface</ModName>
+   <HPWidth>8 HP</HPWidth>
+   <ModDepth>50mm</ModDepth>
+   <InConnect> Optical, ADAT Lightpipe standard </InConnect>
+   <OutConnect> 8 x 3.5mm TS jacks, DC Coupled </OutConnect>
+   <DaConvert> 24 bit, 113dB SNR typical </DaConvert>
+   <MaxOutVolt> approximatly ±10V DC </MaxOutVolt>
+   <!--N/A
+   <Controls/>
+   <GainRange/>
+   <Impedance/>
+   <PhantomPwr/>
+   -->
+   <Indicators> LED for ADAT clock sync; illuminated sockets indicate output voltage (+ve/-ve)</Indicators>
+   <CurrentDraw> 148mA on the +12V rail, 18mA on the -12V rail </CurrentDraw>
+   <Expander> <!--No Expander available--> </Expander>
+</Specs>
+
+<!-- Documentation
+ Contact with my client has been minimal at best.
+ The only request I have recieved from my client to date has been 
+ that the website scale according to the device the site it viewd on.
+ While I am still learnig how to scale every element in a site with CSS,
+ implimenting that feature does not seem incredibly difficult. That said,
+ the assignemnt here has to do with XML. XML seems, at this time, to be an appropriate 
+ method to arrange product specifications. 
+ To do this, I first created an exhasitive list of tags that would apply to all of the 
+ devices that my client offers. I then created an example of how the set of tags would apply
+ to a specific piece of equiptment that the client offers.
+ I am not sure that attrubutes are appropriate, but since they are easily done without,
+ I have included attributes primarily for the purpose of making sure I have applied them correctly
+ and to understand why I may not want to use them, if that seems to be the case.
+ 
+ It is my understanding that attributes are not ideal where the details expressed are likey to change. 
+ Becuase of the fuction of the equiptent offered by the client, aside from the possibile introduciton 
+ of an incrediby groundbreaking product, change in the over all set of specifications is very unlikey.
+-->
