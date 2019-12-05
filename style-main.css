@@ -207,24 +207,24 @@ img {
 	}
 }
 
-/* Panels Section */
-.panels {
+/* modules Section */
+.modules {
 	padding: 2em 1em 1em;
 	background: #3E454C;
 }
 
-.panels ul {
+.modules ul {
 	margin: 0;
 	padding: 0;
 }
 
-.panels li {
+.modules li {
 	margin-bottom: 1em;
 	background: white;
 	list-style-type: none;
 }
 
-.panel {
+.module {
 	padding: 1.5em;
 }
 /* reviews */
@@ -249,17 +249,17 @@ img {
 	padding: 1.5em;
 }
 
-/* Specifications Section */
-.specifications {
+/* .details Section */
+.details {
 	padding: 2em 1em 1em;
 	background: #f7f1ec;
 }
-.specifications ul {
+.details ul {
 	margin: 0;
 	padding: 0;
 }
 
-.specifications li {
+.details li {
 	margin-bottom: 1em;
 	background: white;
 	list-style-type: none;
@@ -317,21 +317,21 @@ Flex layout
 @media screen and (min-width: 700px) {
 	@supports (display: flex) {
 
-		.panels ul {
+		.modules ul {
 			display: flex;
 			justify-content: space-around;
 		}
 
-		.panels li {
+		.modules li {
 			width: 31%;
 		}
 
-		.specifications ul {
+		.details ul {
 			display: flex;
 			justify-content: space-around;
 		}
 
-		.specifications li {
+		.details li {
 			width: 50%;
 		}
 
@@ -373,10 +373,10 @@ CSS Grid layout for modern browsers:
 		.specs {
 			grid-column: 2/4;
 		}
-		.panels ul {
+		.modules ul {
 			grid-column: 2/4;
 		}
-		.specifications ul {
+		.details ul {
 			grid-column: 2/4;
 		}
 		.reviews ul {
